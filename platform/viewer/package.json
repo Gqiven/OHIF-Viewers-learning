@@ -1,0 +1,20 @@
+{
+  "name": "@ohif/viewer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "xqw<sdlytccf@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev:viewer": "yarn run dev",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config .webpack/webpack.pwa.js"
+  },
+  "devDependencies": {
+    "@ohif/core": "1.0.0",
+    "@ohif/ui": "1.0.0",
+    "react-draggable": "^4.4.5",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.5.0",
+    "redux": "^4.2.0",
+    "reselect": "^4.1.7"
+  }
+}

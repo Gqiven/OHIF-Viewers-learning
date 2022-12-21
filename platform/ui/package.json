@@ -1,0 +1,16 @@
+{
+  "name": "@ohif/ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "xqw<sdlytccf@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@ohif/core": "1.0.0",
+    "classnames": "^2.3.2",
+    "prop-types": "^15.8.1",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dnd-touch-backend": "^16.0.1",
+    "react-error-boundary": "^3.1.4"
+  }
+}
